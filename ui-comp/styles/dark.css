@@ -1,0 +1,103 @@
+:root {
+    --dark-msger: #0d1117;
+    --dark-header :  #161b22;
+    --dark-header-font: #f0f6fc;
+    /* --dark-border: #21262d; */
+    --dark-border: #30363d;
+    --dark-body-font: #c9d1d9;
+    --dark-bubble-border: #8b949e;
+    --dark-bubble-fill: #21262d;
+    --dark-key-color1: #006eed;
+    --dark-key-color2: #54a3ff;
+    --dark-sub-color: #ff7b72;
+}
+.o2o-dark .msger {
+    background: var(--dark-msger);
+    color: var(--dark-body-font);
+}
+.o2o-dark .msger-header {
+    background: var(--dark-header);
+    color: var(--dark-header-font);
+}
+.o2o-dark .msg-bubble {
+    /* background: var(--dark-bubble-fill); */
+}
+.o2o-dark .msg-bubble.fill  {
+    background: var(--dark-bubble-fill);
+}
+.o2o-dark .msg-bubble.line  {
+    border: 1px solid var(--dark-bubble-border);
+}
+.o2o-dark .msger-form{
+    background: var(--dark-header);
+    color: var(--dark-header-font);
+}
+.o2o-dark .msger-input {
+    background: none;
+    border: none;
+    border: 1px solid var(--dark-border);
+}
+
+.o2o-dark .none {
+    color: var(--dark-header-font);
+    background: none;
+}
+.o2o-dark .line {
+    background: none;
+    color: var(--dark-header-font);
+    border: 1px solid var(--dark-border);
+}
+.o2o-dark .glass {
+    background: none;
+    color: var(--dark-header-font);
+    box-shadow: inset 0 0 2px #fff, inset 0 0 6px #fff, inset 0 0 8px #fff
+    ; 
+}
+.o2o-dark .rounded-chip {
+    box-shadow: 3px 3px 10px 0px var(--dark-border)
+}
+
+.o2o-dark .chips-wrapper {
+    border-bottom: 1px solid var(--dark-border);
+}
+.o2o-dark svg {
+    fill: var(--dark-body-font);
+}
+.modal-content {
+    background: rgba( 255, 255, 255, 0.55 );
+    backdrop-filter: blur( 2.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: inset 0 0 30px #fff, inset 0 0 50px #fff, inset 0 0 75px #fff;
+}
+.modal-content h3 {
+    line-height: 2rem;
+    color:#fff;
+}
+#confirmStart {
+    background-color: #80afe7;
+    color: #1f3958;
+    font-weight: bold;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.modal2 {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    /*display: flex;*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/img/wave.svg"), linear-gradient(rgba(33,49,82,0.8), rgba(18,25,42,0.89));
+}
+.modal-overlay2 {
+    background: linear-gradient(rgba(33,49,82,0.8), rgba(18,25,42,0.89));
+    width: 80%;
+    height: 100%;
+    position: absolute;
+}
+
+

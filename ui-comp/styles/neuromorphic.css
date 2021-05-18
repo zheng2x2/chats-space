@@ -1,0 +1,17 @@
+:root {
+    --neuro-msger: #0d1117;
+    --neuro-header :  #161b22;
+    --neuro-header-font: #f0f6fc;
+    /* --neuro-border: #21262d; */
+    --neuro-border: #30363d;
+    --neuro-body-font: #c9d1d9;
+    --neuro-bubble-border: #8b949e;
+    --neuro-bubble-fill: #21262d;
+    --neuro-key-color1: #006eed;
+    --neuro-key-color2: #54a3ff;
+    --neuro-sub-color: #ff7b72;
+}
+.o2o-neuro .msger {
+    background: var(--neuro-msger);
+    color: var(--neuro-body-font);
+}
