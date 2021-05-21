@@ -7,6 +7,7 @@
     --green-body-font: white;
     --green-bubble-border: #8b949e;
     --green-bubble-fill: rgba(255, 255, 255, 0.2);
+    --green-msger-icon: #91ac64;
 }
 .o2o-green .msger {
     background: var(--green-msger);
@@ -69,5 +70,12 @@
 }
 
 .o2o-green svg {
-    fill: var(--green-body-font);
+    fill: url(#sendGradient);
+    /* opacity: 0.7; */
 }
+
+.o2o-green .stop1 {
+    stop-color: var(--green-msger-icon);
+}
+.o2o-green .stop3 { stop-color: var(--green-msger); }
+.o2o-green .stop2 { stop-color: white; }

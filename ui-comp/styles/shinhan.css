@@ -68,11 +68,10 @@
 }
 
 
-#svg-send {
-    /* fill: orange; */
-}
+
+ 
 #rect1 {
-    fill: url(#micGradient);
+    fill: url(#Gradient1);
 }
 .stop1 { stop-color: var(--sh-border); }
 .stop2 { stop-color: var(--sh-msger); }

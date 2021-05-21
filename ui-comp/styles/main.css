@@ -101,27 +101,24 @@ html, body {
 .msger-input {
   flex-grow: 1;
   padding: .5rem 1rem;
+  margin-right: .3rem;
 }
 .msger-input.rounded {
   border-radius: .5rem;
 } 
-.send-btn {
-  font-size: medium;
+.send-btn, .mic-btn {
+  /* font-size: medium; */
   /* padding: .5rem 1rem; */
   border: none;
-}
-.send-btn svg {
-
+  margin-left: .85rem;
+  padding: 0;
 }
 .send-btn.rounded {
   border-radius: .75rem;
 }
-.mic-btn {
-  /* padding: .5rem 1rem; */
-  margin-left: .75rem;
-  border: none;
+.send-btn svg {
+  fill: url(#sendGradient)
 }
-
 .chips-wrapper {
   display: flex;
   white-space: nowrap;
