@@ -1,0 +1,84 @@
+:root {
+    --sh-msger: #092E6D;
+    /* --sh-msger2: #4389E3; */
+    --sh-msger2: #54a3ff;
+    --sh-header :  #161b22;
+    --sh-header-font: #f9fdff;
+    --sh-border: #66c0f5;
+    --sh-body-font: #e4ebff;
+    --sh-bubble-border: #00a3ec;
+    /* --sh-bubble-fill: #1A3D77; */
+    --sh-bubble-fill: rgba(255, 255, 255, 0.1);
+}
+.o2o-sh .msger {
+    /* background: var(--sh-msger); */
+    background-image: linear-gradient(var(--sh-msger2), var(--sh-msger));
+    color: var(--sh-body-font);
+}
+.o2o-sh .msger-header {
+    background: none;
+    color: var(--sh-header-font);
+}
+
+.o2o-sh .msg-bubble.fill  {
+    background: var(--sh-bubble-fill);
+    box-shadow: 1px 1px 2px var(--sh-msger);
+}
+.o2o-sh .msg-bubble.line  {
+    border: 1px solid var(--sh-bubble-border);
+}
+
+.o2o-sh .msger-form{
+    background: none;
+    color: var(--dark-header-font);
+}
+
+.o2o-sh .msger-input {
+    background: none;
+    border: none;
+    border: 2px solid var(--sh-border);
+    box-shadow: 1px 1px 8px var(--sh-msger), 
+                -1px -1px 8px var(--sh-msger), 
+                15px 5px 25px #CF77F3,
+                0px 5px 25px #009BFF,
+                -15px 5px 25px #2AC9DB
+                ;
+    /* box-shadow: linear-gradient(-90deg, #CF77F3 0%, #009BFF 47%, #2AC9DB 100%); */
+}
+
+/* div styles */
+.o2o-sh .none {
+    color: var(--sh-header-font);
+    background: none;
+}
+.o2o-sh .line {
+    background: none;
+    color: var(--sh-header-font);
+    border: 2px solid var(--sh-border);
+}
+.o2o-sh .glass {
+    background: none;
+    color: var(--sh-header-font);
+    box-shadow: inset 0 0 2px var(--sh-border), inset 0 0 6px #fff, inset 0 0 8px #fff;
+}
+.o2o-sh .send-btn {
+    background: none;
+    color: var(--dark-header-font);
+    box-shadow: inset 0 0 2px #fff, inset 0 0 6px #fff, inset 0 0 8px #fff;
+    padding: .5rem 1rem;
+}
+.o2o-sh .rounded-chip {
+    background: var(--sh-bubble-fill);
+}
+
+.o2o-sh svg {
+    fill: var(--sh-border)
+}
+
+
+#rect1 {
+    fill: url(#Gradient1);
+}
+.stop1 { stop-color: var(--sh-border); }
+.stop2 { stop-color: var(--sh-msger); }
+.stop3 { stop-color: blue; }
